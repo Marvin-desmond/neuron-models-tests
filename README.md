@@ -1,5 +1,5 @@
 
-  <div style="display: flex; justify-content: center; align-items: center; width: 100%; border: 1px solid red;">
+  <div style="display: flex; justify-content: center; align-items: center; margin-left: 40%;">
     <img alt="Neuron" src="./logo.png" width="52" height="42">
     <span style="color: #dadada; font-weight: bold; font-size: 35px; margin: 0 3%;">Neuron</span>
   </div>
@@ -32,12 +32,5 @@ For now, I have started with vision, later I will update the repo with audio and
 | [mobilenet-v3-imagenet1k-v2](https://pytorch.org/vision/stable/models/generated/torchvision.models.mobilenet_v3_large.html#torchvision.models.MobileNet_V3_Large_Weights) | classification |  <img src="./pytorch.png" width="20"> | pytorch | [0, 1]<br>Normalization<br>mean=[0.485, 0.456, 0.406]<br>std=[0.229, 0.224, 0.225] | before | 224 (central crop) | 14MB (quantized, scripted) | :x: |
 | [yolov5m-fp16](https://github.com/Marvin-desmond/Spoon-Knife/releases/download/v1.0/yolov5m-fp16.tflite) | detection | <img src="./tensorflow.png" width="20"> | tflite | [0, 1] | before | 640 | 40.5MB | :white_check_mark: |
 | [yolov5s](https://github.com/pytorch/android-demo-app/blob/master/ObjectDetection/README.md) | detection | <img src="./pytorch.png" width="20"> | pytorch | [0, 1] | before | 640 | 30MB | :white_check_mark: |
-
-
-In general, these models, when finished, can be applied on offline apps that deal with:
-
-* 🖼️ Images, for tasks like image classification, object detection, and segmentation.
-* 📝 Text, for tasks like text classification, information extraction, question answering, summarization, translation, text generation, in over 100 languages.
-* 🗣️ Audio, for tasks like speech recognition and audio classification.
 
 
