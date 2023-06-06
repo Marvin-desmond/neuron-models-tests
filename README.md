@@ -1,8 +1,8 @@
-
-  <div style="display: flex; justify-content: center; align-items: center; margin-left: 40%;">
-    <img alt="Neuron" src="./logo.png" width="52" height="42">
-    <span style="color: #dadada; font-weight: bold; font-size: 35px; margin: 0 3%;">Neuron</span>
-  </div>
+c<h3 align="center">
+    <p>
+        <b>Neuron ~ Helper Repo for Models Test</b> 
+    <p>
+</h3>
   <br/>
   <br/>
 <h4 align="center">
