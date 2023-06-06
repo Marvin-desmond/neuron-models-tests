@@ -12,6 +12,7 @@
 </h4>
 
 <h3 align="center">
+    <p>What Neuron is all about...</p>
     <p>One-for-All Flutter package for TensorFlow and PyTorch for inference of TFLlite and TorchScript models</p>
 </h3>
 
