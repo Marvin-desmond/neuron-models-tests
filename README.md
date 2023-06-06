@@ -1,5 +1,5 @@
 <p align="center">
-  <div style="display: flex; justify-content: center; align-items: center;">
+  <div style="display: flex; justify-content: center; align-items: center; width: 100%; border: 1px solid red;">
     <img alt="Neuron" src="./logo.png" width="52" height="42">
     <span style="color: #dadada; font-weight: bold; font-size: 35px; margin: 0 3%;">Neuron</span>
   </div>
