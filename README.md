@@ -1,14 +1,7 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap" rel="stylesheet">
-
-<style>
-    font-family: 'Source Sans Pro', sans-serif;
-</style>
 <p align="center">
   <div style="display: flex; justify-content: center; align-items: center;">
-    <img alt="Hugging Face Transformers Library" src="./logo.png" width="52" height="42">
-    <span style="color: #dadada; font-weight: bold; font-size: 35px; font-family: 'Source Sans Pro', sans-serif; margin: 0 3%;">Neuron</span>
+    <img alt="Neuron" src="./logo.png" width="52" height="42">
+    <span style="color: #dadada; font-weight: bold; font-size: 35px; margin: 0 3%;">Neuron</span>
   </div>
   <br/>
   <br/>
@@ -20,7 +13,7 @@
     <p>
 </h4>
 
-<h3 align="center" style="font-family: 'Source Sans Pro', sans-serif;">
+<h3 align="center">
     <p>One-for-All Flutter package for TensorFlow and PyTorch for inference of TFLlite and TorchScript models</p>
 </h3>
 
@@ -49,5 +42,4 @@ In general, these models, when finished, can be applied on offline apps that dea
 * 📝 Text, for tasks like text classification, information extraction, question answering, summarization, translation, text generation, in over 100 languages.
 * 🗣️ Audio, for tasks like speech recognition and audio classification.
 
-Transformer models can also perform tasks on **several modalities combined**, such as table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.
 
