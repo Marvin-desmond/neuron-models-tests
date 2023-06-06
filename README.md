@@ -1,4 +1,4 @@
-c<h3 align="center">
+<h3 align="center">
     <p>
         <b>Neuron ~ Helper Repo for Models Test</b> 
     <p>
