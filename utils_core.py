@@ -47,7 +47,8 @@ def RGB2BGR(input_image: np.ndarray) -> np.ndarray:
     return output_image
 
 def sample_images(dir: str = sample_images_dir) -> list[str]:
-    image_files = glob.glob(dir + "/*.JPEG")
+    # image_files = glob.glob(dir + "/*.JPEG")
+    image_files = ['./cat.png', './people.png']
     return image_files
 
 
