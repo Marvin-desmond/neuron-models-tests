@@ -2,12 +2,12 @@ import tensorflow as tf
 from transformers import AutoImageProcessor, TFViTForImageClassification
 from datasets import load_dataset
 from pprint import pprint 
-from utils import sample_image, cv2_to_pil
+from utils_core import load_image, cv2_to_pil
 
 dataset = load_dataset("huggingface/cats-image")
 image = dataset["test"]["image"][0]
 
-np_image = sample_image()
+np_image = load_image("./cat.png")
 image = cv2_to_pil(np_image)
 
 model = TFViTForImageClassification.from_pretrained('google/vit-base-patch16-224')

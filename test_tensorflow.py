@@ -1,13 +1,14 @@
 import tensorflow as tf 
 import numpy as np 
 from classes import ImageNet_Classes
-from utils_core import sample_image, show_image, cv2_to_pil
+from utils_core import load_image, show_image, cv2_to_pil
 from typing import Any
 from pprint import pprint 
 
 model_path = "./test_models/classification/lite-model_imagenet_mobilenet_v3_small_075_224_classification_5_default_1.tflite"
 
-image: Any = sample_image()
+image = load_image("./cat.png")
+
 classes = ImageNet_Classes().classes
 
 interpreter = tf.lite.Interpreter(model_path=model_path)

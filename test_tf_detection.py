@@ -24,6 +24,8 @@ original_size = original_image.shape[:2]
 inference_image = resize_image(original_image, inf_size)
 
 Interpreter, load_delegate = tf.lite.Interpreter, tf.lite.experimental.load_delegate
+
+# ENSURE YOU HAVE SAVED THE MODEL BELOW IN YOUR LOCAL FOLDER
 interpreter = Interpreter(model_path="./yolov5m-fp16.tflite")
 interpreter.allocate_tensors()
 
